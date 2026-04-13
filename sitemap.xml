@@ -42,6 +42,36 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/beginner-knitting-kit-for-cozy-stress-free-evenings/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/assemble-a-terrarium-building-kit-for-a-calming-desk-project/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/create-a-diy-bath-bomb-making-kit-for-the-ultimate-unwind/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/build-a-beginner-origami-kit-for-a-mindful-screen-free-hobby/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/put-together-a-herb-growing-kit-for-a-peaceful-kitchen-garden/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
