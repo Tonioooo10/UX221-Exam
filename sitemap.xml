@@ -2,17 +2,32 @@
 <urlset>
     <url>
         <loc>
-            http://localhost:8000/hello-world/
+            http://localhost:8000/build-me-a-relaxing-watercolor-painting-starter-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/create-a-diy-candle-making-kit-for-stress-relief-at-home/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/put-together-a-sourdough-bread-baking-kit-for-beginners/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/assemble-a-beginner-embroidery-kit-to-help-me-unplug-and-unwind/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/build-a-self-care-journaling-kit-to-help-someone-manage-daily-stress/
         </loc>
     </url>
     <url>
         <loc>
             http://localhost:8000/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/home/
         </loc>
     </url>
     <url>

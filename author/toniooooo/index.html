@@ -36,11 +36,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 /*# sourceURL=wp-block-library-inline-css */
 </style>
-<style id='wp-block-paragraph-inline-css'>
-.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
-/*# sourceURL=/wp-includes/blocks/paragraph/style.min.css */
-</style>
-
 <style id='classic-theme-styles-inline-css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -74,6 +69,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <script src="/wp-content/themes/childtheme/customElements.js?ver=6.9.4" id="custom_javascript-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/users/1" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.9.4" />
+<link rel="icon" href="/wp-content/uploads/2026/04/cropped-Untitleddesign-36-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2026/04/cropped-Untitleddesign-36-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/2026/04/cropped-Untitleddesign-36-1-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2026/04/cropped-Untitleddesign-36-1-270x270.png" />
 <style id="ur-dynamic-colors">:root {
 	--ur-primary-color: #475bb2;
 	--ur-primary-dark: #4052a0;
@@ -82,7 +81,118 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	--ur-button-text-hover-color: #FFFFFF;
 	--ur-button-background-normal-color: #475bb2;
 	--ur-button-background-hover-color: #38488e;
-}</style>
+}</style>		<style id="wp-custom-css">
+			@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=DM+Sans:wght@400;600&display=swap');
+
+:root {
+  --green:   #2E6B47;
+  --amber:   #C8630A;
+  --bg:      #FAF7F2;
+  --surface: #FFFFFF;
+  --border:  #E2D9CC;
+  --text:    #2A2318;
+  --muted:   #6D6253;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.site-header, #masthead {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Buttons */
+.btn, input[type="submit"], .wp-block-button__link {
+  background: var(--green);
+  color: #fff !important;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.65rem 1.4rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.btn:hover, input[type="submit"]:hover, .wp-block-button__link:hover {
+  background: #1F4D33;
+}
+
+/* Cards */
+.card, .post, article.type-post {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Forms */
+input[type="text"], input[type="email"], textarea, select {
+  width: 100%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  padding: 0.65rem 1rem;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(46,107,71,0.15);
+}
+
+/* Footer */
+.site-footer, #colophon {
+  background: #1F2B22;
+  color: #A8C0AD;
+  padding: 2.5rem 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.875rem;
+}
+
+.site-footer a { color: #C8DEC9; }
+.site-footer a:hover { color: #fff; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  .card, article.type-post { padding: 1rem; }
+}		</style>
+		
 	</head>
 
 <body  class="archive author author-toniooooo author-1 wp-theme-neve wp-child-theme-childtheme user-registration-page ur-settings-sidebar-show  nv-blog-grid nv-sidebar-full-width menu_sidebar_slide_left" id="neve_body"  >
@@ -117,7 +227,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	<div role="navigation" class="nav-menu-primary"
 			aria-label="Primary Menu">
 
-		<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul"><li class="page_item page-item-15"><a href="/home/">Home</a></li><li class="page_item page-item-18"><a href="/job-list/">Job List</a></li><li class="page_item page-item-20"><a href="/signup/">Signup</a></li></ul>	</div>
+		<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul"><li class="page_item page-item-15"><a href="/">Home</a></li><li class="page_item page-item-18 current_page_parent"><a href="/job-list/">Job List</a></li><li class="page_item page-item-20"><a href="/signup/">Signup</a></li></ul>	</div>
 </div>
 
 	</div>
@@ -195,7 +305,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	<div role="navigation" class="nav-menu-primary"
 			aria-label="Primary Menu">
 
-		<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul"><li class="page_item page-item-15"><a href="/home/">Home</a></li><li class="page_item page-item-18"><a href="/job-list/">Job List</a></li><li class="page_item page-item-20"><a href="/signup/">Signup</a></li></ul>	</div>
+		<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul"><li class="page_item page-item-15"><a href="/">Home</a></li><li class="page_item page-item-18 current_page_parent"><a href="/job-list/">Job List</a></li><li class="page_item page-item-20"><a href="/signup/">Signup</a></li></ul>	</div>
 </div>
 
 	</div>
@@ -217,12 +327,39 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		
 		<div class="row">
 						<div class="nv-index-posts blog col">
-				<div class="posts-wrapper"><article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized layout-grid ">
+				<div class="posts-wrapper"><article id="post-43" class="post-43 post type-post status-publish format-standard hentry category-uncategorized layout-grid ">
 
 	<div class="article-content-col">
 		<div class="content">
-			<h2 class="blog-entry-title entry-title is-h4"><a href="/hello-world/" rel="bookmark">Hello world!</a></h2><ul class="nv-meta-list"><li  class="meta author vcard "><span class="author-name fn">by <a href="/author/toniooooo/" title="Posts by Toniooooo" rel="author">Toniooooo</a></span></li><li class="meta date posted-on "><time class="entry-date published" datetime="2026-04-13T14:32:28-04:00" content="2026-04-13">13 April 2026</time></li></ul><div class="excerpt-wrap entry-summary" tabindex="0"><p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-</div>		</div>
+			<h2 class="blog-entry-title entry-title is-h4"><a href="/build-a-self-care-journaling-kit-to-help-someone-manage-daily-stress/" rel="bookmark">Build a Self-Care Journaling Kit to Help Someone Manage Daily Stress</a></h2><ul class="nv-meta-list"><li  class="meta author vcard "><span class="author-name fn">by <a href="/author/toniooooo/" title="Posts by Toniooooo" rel="author">Toniooooo</a></span></li><li class="meta date posted-on "><time class="entry-date published" datetime="2026-04-13T15:31:01-04:00" content="2026-04-13">13 April 2026</time><time class="updated" datetime="2026-04-13T15:31:03-04:00">13 April 2026</time></li></ul><div class="excerpt-wrap entry-summary" tabindex="0"></div>		</div>
+	</div>
+</article>
+<article id="post-39" class="post-39 post type-post status-publish format-standard hentry category-uncategorized layout-grid ">
+
+	<div class="article-content-col">
+		<div class="content">
+			<h2 class="blog-entry-title entry-title is-h4"><a href="/assemble-a-beginner-embroidery-kit-to-help-me-unplug-and-unwind/" rel="bookmark">Assemble a Beginner Embroidery Kit to Help Me Unplug and Unwind</a></h2><ul class="nv-meta-list"><li  class="meta author vcard "><span class="author-name fn">by <a href="/author/toniooooo/" title="Posts by Toniooooo" rel="author">Toniooooo</a></span></li><li class="meta date posted-on "><time class="entry-date published" datetime="2026-04-13T15:30:08-04:00" content="2026-04-13">13 April 2026</time><time class="updated" datetime="2026-04-13T15:30:09-04:00">13 April 2026</time></li></ul><div class="excerpt-wrap entry-summary" tabindex="0"></div>		</div>
+	</div>
+</article>
+<article id="post-36" class="post-36 post type-post status-publish format-standard hentry category-uncategorized layout-grid ">
+
+	<div class="article-content-col">
+		<div class="content">
+			<h2 class="blog-entry-title entry-title is-h4"><a href="/put-together-a-sourdough-bread-baking-kit-for-beginners/" rel="bookmark">Put Together a Sourdough Bread Baking Kit for Beginners</a></h2><ul class="nv-meta-list"><li  class="meta author vcard "><span class="author-name fn">by <a href="/author/toniooooo/" title="Posts by Toniooooo" rel="author">Toniooooo</a></span></li><li class="meta date posted-on "><time class="entry-date published" datetime="2026-04-13T15:28:29-04:00" content="2026-04-13">13 April 2026</time><time class="updated" datetime="2026-04-13T15:28:31-04:00">13 April 2026</time></li></ul><div class="excerpt-wrap entry-summary" tabindex="0"></div>		</div>
+	</div>
+</article>
+<article id="post-33" class="post-33 post type-post status-publish format-standard hentry category-uncategorized layout-grid ">
+
+	<div class="article-content-col">
+		<div class="content">
+			<h2 class="blog-entry-title entry-title is-h4"><a href="/create-a-diy-candle-making-kit-for-stress-relief-at-home/" rel="bookmark">Create a DIY Candle Making Kit for Stress Relief at Home</a></h2><ul class="nv-meta-list"><li  class="meta author vcard "><span class="author-name fn">by <a href="/author/toniooooo/" title="Posts by Toniooooo" rel="author">Toniooooo</a></span></li><li class="meta date posted-on "><time class="entry-date published" datetime="2026-04-13T15:27:26-04:00" content="2026-04-13">13 April 2026</time><time class="updated" datetime="2026-04-13T15:27:27-04:00">13 April 2026</time></li></ul><div class="excerpt-wrap entry-summary" tabindex="0"></div>		</div>
+	</div>
+</article>
+<article id="post-30" class="post-30 post type-post status-publish format-standard hentry category-uncategorized layout-grid ">
+
+	<div class="article-content-col">
+		<div class="content">
+			<h2 class="blog-entry-title entry-title is-h4"><a href="/build-me-a-relaxing-watercolor-painting-starter-kit/" rel="bookmark">Build Me a Relaxing Watercolor Painting Starter Kit</a></h2><ul class="nv-meta-list"><li  class="meta author vcard "><span class="author-name fn">by <a href="/author/toniooooo/" title="Posts by Toniooooo" rel="author">Toniooooo</a></span></li><li class="meta date posted-on "><time class="entry-date published" datetime="2026-04-13T15:19:41-04:00" content="2026-04-13">13 April 2026</time><time class="updated" datetime="2026-04-13T15:19:42-04:00">13 April 2026</time></li></ul><div class="excerpt-wrap entry-summary" tabindex="0"></div>		</div>
 	</div>
 </article>
 </div>				<div class="w-100"></div>
